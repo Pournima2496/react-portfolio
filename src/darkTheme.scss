@@ -1,0 +1,82 @@
+.app.dark {
+  background: rgb(6, 2, 32);
+  color: beige;
+
+  .container {
+    
+    .right {
+      .popup {
+        border: 1px solid blueviolet;
+        box-shadow: 2px 2px 4px 1px gray;
+      }
+
+      form {
+        border: 1px solid blueviolet;
+        box-shadow: 2px 2px 4px 1px gray;
+
+        input, textarea{
+          background: transparent;
+          color: white;
+        }
+
+        .btn-1{
+          border: 1px solid blue;
+
+          &:hover{
+            background: blue;
+          }
+        }
+      }
+    }
+  }
+
+  .projects {
+    .cards {
+      .card {
+        box-shadow: 0 0 5px 1px blueviolet;
+      }
+    }
+  }
+
+  .project {
+    .modal {
+      .top {
+        .title {
+          color: #111;
+        }
+      }
+
+      .bottom {
+        p {
+          color: #111;
+        }
+      }
+    }
+  }
+  .navbar {
+    background: #111;
+
+    .n-right {
+      .list {
+        li {
+          a {
+            color: #fff;
+
+            &:hover {
+              color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    background: #000;
+
+    .f-right{
+      a{
+        color: #fff;
+      }
+    }
+  }
+}

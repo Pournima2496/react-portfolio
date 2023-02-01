@@ -1,0 +1,130 @@
+.contact {
+  margin-top: 5rem;
+  .left {
+    .heading {
+      text-align: center;
+    }
+    
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    form {
+      width: 80%;
+      padding: 1rem 2rem;
+      border-radius: 1rem;
+      
+      h1 {
+        text-align: center;
+        padding: 10px;
+      }
+
+      input,
+      textarea {
+        margin-top: 1.5rem;
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 16px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid gray;
+
+        &::placeholder {
+          color: blue;
+        }
+      }
+
+      .btn-1 {
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 1rem;
+        color: #fff;
+      }
+      span {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+        color: red;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        background: rgb(238, 238, 53);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .contact {
+    .right {
+      form {
+        width: 100%;
+        padding: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    margin: 6rem 0;
+    .right {
+      form {
+        padding: 2rem;
+        width: 100%;
+
+        input {
+          height: 4rem;
+          font-size: 1.5rem;
+        }
+        textarea {
+          font-size: 1.5rem;
+        }
+
+        .btn-1 {
+          margin-top: 1.5rem;
+          margin-right: 30%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact {
+    margin-top: 5rem;
+
+    .left{
+      width: 100%;
+
+      iframe{
+        width: 100%;
+      }
+    }
+    .right {
+      form {
+        padding: 1rem;
+        width: 100%;
+
+        input {
+          height: 2rem;
+          font-size: 1rem;
+        }
+        textarea {
+          font-size: 1rem;
+        }
+
+        .btn-1 {
+          margin-left: 15%;
+          width: 70%;
+          height: 20%;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
